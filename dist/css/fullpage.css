@@ -1,0 +1,411 @@
+html,
+body,
+.fullpage,
+.page {
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+.fullpage {
+  background: #f1f2f6;
+  position: relative;
+  width: 100%;
+  top: -50px;
+}
+.fullpage .page {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  font-size: 17px;
+}
+.fullpage .page.page0 {
+  background: #2999d6;
+}
+.fullpage .page.page0 .first {
+  width: 501px;
+  color: white;
+  height: 151px;
+  margin: 0 auto;
+}
+.fullpage .page.page0 .first ul {
+  list-style: none;
+  margin: 0;
+}
+.fullpage .page.page0 .first ul li {
+  font-size: 17px;
+  margin-top: 12px ;
+}
+.fullpage .page.page0 .first ul li img {
+  width: 360px;
+}
+.fullpage .page.page0 .first ul li .next {
+  width: 62px;
+}
+.fullpage .page.page0 .first ul .bird1 {
+  font-size: 20px;
+}
+.fullpage .page.page1 {
+  background: #1d0d31;
+}
+.fullpage .page.page1 .first-img {
+  display: block;
+  margin-left: 578px;
+  margin-bottom: -62px;
+  padding-top: 110px;
+}
+.fullpage .page.page1 .first {
+  width: 649px;
+  color: white;
+  height: 151px;
+  margin: 0 auto;
+  text-align: center;
+}
+.fullpage .page.page1 .first ul {
+  list-style: none;
+  margin: 0;
+}
+.fullpage .page.page1 .first ul li {
+  font-size: 14px;
+  margin-top: 12px ;
+  letter-spacing: 5px ;
+  font-family: simsun ;
+}
+.fullpage .page.page1 .first ul li img {
+  width: 360px;
+}
+.fullpage .page.page1 .first ul li .next {
+  display: block;
+  width: 62px;
+  margin-top: 81px ;
+  margin-left: 278px;
+}
+.fullpage .page.page1 .first ul .bird1 {
+  font-size: 27px;
+  letter-spacing: 5px ;
+}
+.fullpage .page.page2 {
+  background: white;
+}
+.fullpage .page.page2 .goLeft {
+  position: absolute;
+  top: 327px;
+  right: 50px;
+  transform: rotate(270deg);
+}
+.fullpage .page.page2 .goRight {
+  position: absolute;
+  top: 327px;
+  left: 50px;
+  transform: rotate(445deg);
+}
+.fullpage .page.page2 .first {
+  width: 914px;
+  height: 742px;
+  text-indent: -8px;
+  color: #221236;
+  padding-top: 42px;
+  list-style: none;
+  margin: 0 auto;
+}
+.fullpage .page.page2 .first li {
+  font-size: 17px;
+  margin-top: 35px;
+  text-align: center;
+  line-height: 25px;
+}
+.fullpage .page.page2 .first li img {
+  width: 360px;
+}
+.fullpage .page.page2 .first li .next {
+  width: 62px;
+}
+.fullpage .page.page2 .first .bird1 {
+  font-size: 47px;
+  text-align: center;
+}
+.fullpage .page.page2 .first .first-img {
+  width: 890px;
+  height: 280px;
+  border: 1px solid white;
+  margin: 50px auto;
+  height: 100%;
+}
+.fullpage .page.page2 .first .first-img img {
+  padding-left: 27px ;
+}
+.fullpage .page.page2 .first22 {
+  list-style: none;
+  width: 625px;
+  margin: 0 auto;
+}
+.fullpage .page.page2 .first22 li {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 36px;
+}
+.fullpage .page.page2 .first22 li img {
+  float: left;
+}
+.fullpage .page.page2 .first22 li .img-top {
+  display: block;
+  margin-top: 69px;
+  margin-left: 94px;
+}
+.fullpage .page.page2 .first22 li p {
+  float: left;
+  text-align: left;
+  font-size: 18px;
+  margin-left: 35px;
+}
+.fullpage .page.page2 .first23 {
+  list-style: none;
+  width: 692px;
+  margin: 0 auto;
+}
+.fullpage .page.page2 .first23 li {
+  margin-top: 50px ;
+  font-family: simsun;
+}
+.fullpage .page.page2 .first23 li span {
+  font-size: 36px;
+}
+.fullpage .page.page2 .first23 li p {
+  text-align: left;
+  text-indent: 37px;
+  line-height: 28px;
+  color: gray;
+}
+.fullpage .page.page3 {
+  background: #221236;
+  color: white;
+}
+.fullpage .page.page3 .bird1 {
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 5px ;
+}
+.fullpage .page.page3 .first {
+  width: 343px;
+  height: 500px;
+  float: left;
+  color: white;
+  padding-left: 405px;
+  padding-top: 79px;
+}
+.fullpage .page.page3 .first ul {
+  list-style: none;
+  text-align: left ;
+}
+.fullpage .page.page3 .first ul li {
+  margin-bottom: 37px;
+}
+.fullpage .page.page3 .first ul li img {
+  padding-right: 19px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  float: left;
+}
+.fullpage .page.page3 .first-img {
+  width: 366px;
+  height: 500px;
+  float: left;
+  color: white;
+  padding-top: 79px;
+}
+.fullpage .page.page3 .first-img ul {
+  list-style: none;
+  text-align: left ;
+}
+.fullpage .page.page3 .first-img ul li {
+  margin-bottom: 37px;
+}
+.fullpage .page.page3 .first-img ul li img {
+  padding-right: 19px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  float: left;
+}
+.fullpage .page.page4 {
+  background: white;
+}
+.fullpage .page.page4 .bird1 {
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 5px ;
+}
+.fullpage .page.page4 .first {
+  width: 925px;
+  height: 420px;
+  text-align: left;
+  margin: 67px auto;
+  font-family: "KaiTi";
+}
+.fullpage .page.page4 .first .sk {
+  line-height: 13px;
+  display: block;
+  border-bottom: 1px solid lightgray;
+  height: 21px;
+}
+.fullpage .page.page4 .first .sk span {
+  text-indent: 10px;
+}
+.fullpage .page.page4 .slide {
+  width: 200px;
+  height: 15px;
+  border: 1px solid red;
+  border-radius: 15px;
+  margin: -45px auto;
+  position: relative;
+  top: -578px;
+}
+.fullpage .page.page4 .slide .slide-left {
+  width: 80px;
+  height: 10px;
+  border: 1px solid cornflowerblue;
+  background: cornflowerblue;
+  border-radius: 15px;
+  position: absolute;
+  left: 0;
+}
+.fullpage .page.page4 .slide .slide-right {
+  width: 80px;
+  height: 10px;
+  border: 1px solid cornflowerblue;
+  background: cornflowerblue ;
+  border-radius: 15px;
+  position: absolute;
+  left: 117px;
+}
+.fullpage .page.page4 .slide .slide-middle {
+  width: 80px;
+  height: 10px;
+  border: 1px solid lightgray;
+  background: lightgray;
+  border-radius: 15px;
+  position: absolute;
+  top: 10px;
+}
+.fullpage .page.page5 {
+  background: url(../../img/app&contacts_bg.gif);
+  background-position-x: -325px;
+}
+.fullpage .page.page5 .page-left {
+  width: 800px;
+  height: 424px;
+  float: left;
+  position: relative;
+}
+.fullpage .page.page5 .page-left .app {
+  display: block;
+  margin: 125px 335px;
+}
+.fullpage .page.page5 .page-left p {
+  color: white;
+  position: absolute;
+  top: 110px;
+  left: 395px;
+}
+.fullpage .page.page5 .page-left span {
+  position: absolute;
+  top: 235px;
+  left: 671px;
+  color: white;
+  font-size: 30px;
+}
+.fullpage .page.page5 .page-right {
+  width: 800px;
+  height: 424px;
+  float: right;
+  border: 1px solid white;
+  text-align: left;
+  margin-top: 40px;
+}
+.fullpage .page.page5 .page-right .line {
+  display: block;
+  margin-top: 2px;
+}
+.fullpage .page.page5 .page-right p {
+  font-size: 15px;
+}
+.fullpage .page.page5 .page-right span {
+  font-size: 30px;
+}
+.gotop {
+  animation: gotop 0.5s linear;
+}
+.godown {
+  animation: godown 0.5s linear;
+}
+@keyframes gotop {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes godown {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(100%);
+  }
+}
+a,
+a:link,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+.clear {
+  clear: both;
+}
+.header {
+  width: 100%;
+  z-index: 999;
+}
+.header .img1 {
+  width: 100%;
+  height: 50px;
+  display: block;
+}
+.header span img {
+  display: block;
+  float: left;
+  color: white;
+  position: relative;
+  top: -52px;
+  left: 264px;
+}
+.header a {
+  height: 27px;
+  width: 106px;
+  text-align: center;
+  display: block;
+  float: left;
+  margin-top: -10px;
+  color: lightgray;
+  position: relative;
+  top: -30px;
+  left: 311px;
+  z-index: 999;
+}
+.header a:hover {
+  color: white;
+  transition: color 0.5s;
+}
+.header a img {
+  width: 20px;
+  height: 20px;
+  display: block;
+  margin-left: 0px;
+  position: relative;
+  top: -19px;
+  left: 67px;
+}
+.header a .img2 {
+  left: 35px;
+}

@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.clear {
+  clear: both;
+}
+a,
+a:link,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+.header {
+  width: 100%;
+  height: 130px;
+  background: url(../../imgs/music_bg.jpg);
+}
+.header img {
+  display: block;
+  margin-left: 175px;
+}
+.header ul {
+  list-style: none;
+  margin-left: 606px;
+  margin-top: -64px;
+  cursor: pointer;
+}
+.header ul li {
+  float: left;
+  color: white;
+  height: 187px;
+  width: 104px;
+  margin-right: 24px;
+}
+.header ul li img {
+  float: left;
+  margin-left: 64px;
+  margin-top: -22px;
+}
+.header ul li .img2 {
+  margin-left: 48px;
+}
+.header ul li nav {
+  margin-left: -31px;
+  margin-top: 20px;
+  background: #322246;
+  width: 150px;
+  text-align: center;
+  overflow: hidden;
+  z-index: 999;
+  position: absolute;
+  display: none;
+}
+.header ul li nav a.list2 {
+  height: 23px;
+  width: 118px;
+  line-height: 22px;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 15px;
+  display: block;
+}
+.header ul li nav a.list2:hover {
+  background: cornflowerblue;
+  padding-left: 25px;
+  transition: padding-left 0.5s;
+}
+.header ul li nav a.list2:hover:hover:after {
+  content: url(../../imgs/nav_bg.png);
+  float: right;
+}

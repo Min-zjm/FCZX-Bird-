@@ -1,0 +1,214 @@
+body{
+    margin:0;
+}
+.about-c{
+    width:100%;
+    background:#f1f2f6;
+    .center{
+        width:1100px;
+        margin:0 auto;
+        background:white;
+      .center2{
+         width:857px;
+         margin:0 auto;
+         padding-bottom: 87px;
+        .title{
+            text-align: center;
+            padding-top:68px;
+            p{
+                font-size:50px;
+                margin:0;
+            }
+            span{
+                display: block;
+                margin-bottom: 20px;
+                font-size: 20px;
+            }
+      }
+      .font{
+         margin: 0 auto;
+         width:857px;
+        .pen-line{
+          width:100%; 
+        }
+       .pen {
+            float:right;
+            margin-top:-60px;
+        }
+     }
+     .banner{
+         width:100%;
+         margin-top:50px ;
+     }
+     h1{
+         font-size:20px ;
+         font-family:simsun;
+     }
+     p{
+       font-size:15px ; 
+       font-family:'kaiti';
+       padding-bottom:50px ; 
+     }
+     .bottom-img{
+            width: 100px;         //#####--url  
+            height: 90px;
+            margin-top:-48px;
+            position: absolute;
+            right:623px;          
+            background: url(../../imgs/fixed_contactus.png) top right no-repeat;
+            &:hover {
+                width:300px;    //#####--url 
+                transition: width 0.6s;
+                animation: name 0.7s;
+            }
+      }
+      @keyframes name{   //##########
+                    10%{
+                        transform: scaleX(0.8) scaleY(2.0);
+                    }
+                    50%{
+                         transform: scaleX(1.0) scaleY(0.8);
+                    }
+                    100%{
+                        transform: scaleX(1) scaleY(1);  //回原位
+                    }
+      }
+     .bottom{
+         width:260px;
+         height:87px;
+         background:#f1f2f6;
+         text-align: center;
+         margin:15 auto;
+         line-height:92px ;
+         color:#35234c;
+         margin-left: 308px;
+         bottom: -54px;
+         position: relative;
+      }
+   }
+  }
+a,
+a:link,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+//下拉菜单
+.header {
+  width: 100%;
+  z-index:999;
+}
+.header .img1 {
+  width: 100%;
+  height: 76px;
+  display: block;
+}
+.header span img{
+    display: block;
+    float:left;
+    color:white;
+    position: relative;
+    top: -70px;
+    left: 264px;
+    height: 50px;
+}
+.header a{
+  height: 27px;
+  width: 106px;
+  text-align: center;
+  display: block;
+  float: left;
+  margin-top: -10px;
+  color:lightgray;
+  position: relative;
+  top: -38px;
+  left: 347px;
+  z-index: 999;
+  &:hover{
+      color:white;
+      transition:color 0.5s;
+  }
+}
+.header a img {
+  width: 20px;
+  height: 20px;
+  display: block;
+  margin-left: 0px;
+  position: relative;
+  top: -19px;
+  left: 67px;
+}
+.header a .img2 {
+  left: 35px;
+} 
+.music{
+    width:100%;
+    height:375px; 
+    background:url(../../imgs/music_bg.jpg);  //
+    position: relative;
+    .mus{
+        width: 550px;
+        height: 57px;
+        margin: 0 auto;
+        div{
+            width: 57px;
+            height: 57px;
+            float: left;
+            margin: 180px 10px;
+            &:hover{
+                background-position-y:-57px;   //-##变成蓝色图片  --背景Y轴偏移 
+                animation: names 0.5s;        //跳动--动画
+                cursor: pointer;
+            }
+        }
+        @keyframes names{   //##########
+                10%{
+                    transform: scaleX(0.8) scaleY(1.1);
+                }
+                50%{
+                     transform: scaleX(1.1) scaleY(0.8);
+                }
+                100%{
+                    transform: scaleX(1) scaleY(1);  //回原位
+                }
+        }
+        
+        .a{
+            background:url(../../img/yinyue_duo.png)no-repeat;
+        }
+        .b{
+            background:url(../../img/yinyue_lai.png)no-repeat;
+        }
+        .c{
+            background:url(../../img/yinyue_mi.png)no-repeat;
+        }
+        .d{
+            background:url(../../img/yinyue_fa.png)no-repeat;
+        }
+        .e{
+            background:url(../../img/yinyueh_suo.png)no-repeat;
+        }
+        .f{
+            background:url(../../img/yinyue_la.png)no-repeat;
+        }
+        .g{
+            background:url(../../img/yinyue_xi.png)no-repeat;
+        }
+           
+    }
+        
+
+    span{
+        display: block;
+        border-top:1px dashed gainsboro;
+        width:853px;   //
+        margin:0 auto;
+        position: absolute;
+        bottom:60px;
+        left:272px;
+        text-align: center;
+        color:white;
+    }    
+}
+
+}  

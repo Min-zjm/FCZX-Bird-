@@ -1,0 +1,208 @@
+body {
+  margin: 0;
+}
+.about-c {
+  width: 100%;
+  background: #f1f2f6;
+}
+.about-c .center {
+  width: 1100px;
+  margin: 0 auto;
+  background: white;
+}
+.about-c .center .center2 {
+  width: 857px;
+  margin: 0 auto;
+  padding-bottom: 87px;
+}
+.about-c .center .center2 .title {
+  text-align: center;
+  padding-top: 68px;
+}
+.about-c .center .center2 .title p {
+  font-size: 50px;
+  margin: 0;
+}
+.about-c .center .center2 .title span {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.about-c .center .center2 .font {
+  margin: 0 auto;
+  width: 857px;
+}
+.about-c .center .center2 .font .pen-line {
+  width: 100%;
+}
+.about-c .center .center2 .font .pen {
+  float: right;
+  margin-top: -60px;
+}
+.about-c .center .center2 .banner {
+  width: 100%;
+  margin-top: 50px ;
+}
+.about-c .center .center2 h1 {
+  font-size: 20px ;
+  font-family: simsun;
+}
+.about-c .center .center2 p {
+  font-size: 15px ;
+  font-family: 'kaiti';
+  padding-bottom: 50px ;
+}
+.about-c .center .center2 .bottom-img {
+  width: 100px;
+  height: 90px;
+  margin-top: -48px;
+  position: absolute;
+  right: 623px;
+  background: url(../../imgs/fixed_contactus.png) top right no-repeat;
+}
+.about-c .center .center2 .bottom-img:hover {
+  width: 300px;
+  transition: width 0.6s;
+  animation: name 0.7s;
+}
+@keyframes name {
+  10% {
+    transform: scaleX(0.8) scaleY(2);
+  }
+  50% {
+    transform: scaleX(1) scaleY(0.8);
+  }
+  100% {
+    transform: scaleX(1) scaleY(1);
+  }
+}
+.about-c .center .center2 .bottom {
+  width: 260px;
+  height: 87px;
+  background: #f1f2f6;
+  text-align: center;
+  margin: 15 auto;
+  line-height: 92px ;
+  color: #35234c;
+  margin-left: 308px;
+  bottom: -54px;
+  position: relative;
+}
+.about-c a,
+.about-c a:link,
+.about-c a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+.about-c .header {
+  width: 100%;
+  z-index: 999;
+}
+.about-c .header .img1 {
+  width: 100%;
+  height: 76px;
+  display: block;
+}
+.about-c .header span img {
+  display: block;
+  float: left;
+  color: white;
+  position: relative;
+  top: -70px;
+  left: 264px;
+  height: 50px;
+}
+.about-c .header a {
+  height: 27px;
+  width: 106px;
+  text-align: center;
+  display: block;
+  float: left;
+  margin-top: -10px;
+  color: lightgray;
+  position: relative;
+  top: -38px;
+  left: 347px;
+  z-index: 999;
+}
+.about-c .header a:hover {
+  color: white;
+  transition: color 0.5s;
+}
+.about-c .header a img {
+  width: 20px;
+  height: 20px;
+  display: block;
+  margin-left: 0px;
+  position: relative;
+  top: -19px;
+  left: 67px;
+}
+.about-c .header a .img2 {
+  left: 35px;
+}
+.about-c .music {
+  width: 100%;
+  height: 375px;
+  background: url(../../imgs/music_bg.jpg);
+  position: relative;
+}
+.about-c .music .mus {
+  width: 550px;
+  height: 57px;
+  margin: 0 auto;
+}
+.about-c .music .mus div {
+  width: 57px;
+  height: 57px;
+  float: left;
+  margin: 180px 10px;
+}
+.about-c .music .mus div:hover {
+  background-position-y: -57px;
+  animation: names 0.5s;
+  cursor: pointer;
+}
+@keyframes names {
+  10% {
+    transform: scaleX(0.8) scaleY(1.1);
+  }
+  50% {
+    transform: scaleX(1.1) scaleY(0.8);
+  }
+  100% {
+    transform: scaleX(1) scaleY(1);
+  }
+}
+.about-c .music .mus .a {
+  background: url(../../img/yinyue_duo.png) no-repeat;
+}
+.about-c .music .mus .b {
+  background: url(../../img/yinyue_lai.png) no-repeat;
+}
+.about-c .music .mus .c {
+  background: url(../../img/yinyue_mi.png) no-repeat;
+}
+.about-c .music .mus .d {
+  background: url(../../img/yinyue_fa.png) no-repeat;
+}
+.about-c .music .mus .e {
+  background: url(../../img/yinyueh_suo.png) no-repeat;
+}
+.about-c .music .mus .f {
+  background: url(../../img/yinyue_la.png) no-repeat;
+}
+.about-c .music .mus .g {
+  background: url(../../img/yinyue_xi.png) no-repeat;
+}
+.about-c .music span {
+  display: block;
+  border-top: 1px dashed gainsboro;
+  width: 853px;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 60px;
+  left: 272px;
+  text-align: center;
+  color: white;
+}
